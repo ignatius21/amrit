@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 function Navegacion2() {
     
@@ -7,16 +6,16 @@ function Navegacion2() {
         <nav className='navbar justify-content-center mt-3'>
             <ul className="nav mt-2">
                 <li className="nav-item">
-                    <Link className="nav-link cta2" aria-current="page" to={"/contacto"} onClick={()=> window.scrollTo(0,0)}><span className='hover-underline-animation2'>contacto</span></Link>
+                    <a className="nav-link cta2" aria-current="page" href={"/contacto"}><span className='hover-underline-animation2'>contacto</span></a>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link cta2" to="/productos" onClick={()=> window.scrollTo(0,0)}><span className='hover-underline-animation2'>productos</span></Link>
+                    <a className="nav-link cta2" href="/productos"><span className='hover-underline-animation2'>productos</span></a>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link cta2" to="/nosotros" onClick={()=> window.scrollTo(0,0)}><span className='hover-underline-animation2'>nosotros</span></Link>
+                    <a className="nav-link cta2" href="/nosotros"><span className='hover-underline-animation2'>nosotros</span></a>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link cta2" to="/galeria" onClick={()=> window.scrollTo(0,0)}><span className='hover-underline-animation2'>galeria</span></Link>
+                    <a className="nav-link cta2" href="/galeria"><span className='hover-underline-animation2'>galeria</span></a>
                 </li>
             </ul>
         </nav>
