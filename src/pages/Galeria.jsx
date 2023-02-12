@@ -79,7 +79,7 @@ function Galeria() {
       {data.map((item,index)=>{
         return(
           <div className='imagenes' key={index}>
-            <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:.5,delay:1.5,ease:'easeInOut'}} src={item.imgSrc} alt="" style={{width:'100%'}} className='rounded-5'/>
+            <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:.5,delay:1,ease:'easeInOut'}} src={item.imgSrc} alt="" style={{width:'100%'}} className='rounded-5'/>
           </div>
         )
       })}
