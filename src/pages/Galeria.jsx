@@ -73,7 +73,7 @@ function Galeria() {
   return (
     <>
     <div className='container'>
-      <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:.9,delay:1.3}} className='text-uppercase text-center textoGaleria'>galeria</motion.h1>
+      <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:.9,delay:1.3}} className='text-uppercase text-center textoGaleria'>galeri</motion.h1>
     </div>
     <div className='galeria'>
       {data.map((item,index)=>{
