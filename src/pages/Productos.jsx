@@ -43,13 +43,13 @@ function Productos() {
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: .85, delay: .4, type: 'tween', ease: 'easeInOut' }}
+          transition={{ duration: 1, delay: 1.4, type: 'tween', ease: 'easeInOut' }}
           viewport={{ once: true }}
           className="container text-center mt-5 text-uppercase display-1 productos">nuestros licores</motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: .7, delay: .5, ease: 'easeInOut' }}
+          transition={{ duration: .7, delay: 1.5, ease: 'easeInOut' }}
           viewport={{ once: true }}
           className="container text-center mt-5 productos-licores display-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error illo quas iure, dolorum laudantium aspernatur, sint cum in libero fugiat laborum fuga vitae officiis doloremque tenetur cupiditate ducimus quae.</motion.p>
 
@@ -57,19 +57,19 @@ function Productos() {
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: .8, delay: .6, ease: 'easeInOut' }}
+            transition={{ duration: .8, delay: 1.2, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href='#licor1' className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>limoncello</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: .8, delay: .7, ease: 'easeInOut' }}
+            transition={{ duration: .8, delay: 1.3, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href="#licor2" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>cafe</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: .8, delay: .8, ease: 'easeInOut' }}
+            transition={{ duration: .8, delay: 1.4, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href="#licor3" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>mani</motion.a>
         </div>

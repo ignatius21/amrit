@@ -3,6 +3,9 @@ import Navegacion from './Navegacion';
 import Footer from './Footer';
 import {useLocation} from 'react-router-dom';
 import bg4 from '../img/bg5.webp';
+import Fade from './Fade';
+
+
 
 
 
@@ -28,22 +31,22 @@ function Layout() {
     };
 
     
+    
      
     return (
         <>
-                <div className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}> 
-                    <p className='parrafoLicores top-50 start-50 translate-middle text-uppercase'>licore</p>
+            <Fade>
+                <div className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
+                    <p className='parrafoLicores top-50 start-50 translate-middle text-uppercase'>licores</p>
                     <p className='position-absolute top-50 start-50 translate-middle amrit'>AMRIT</p>
                     <img src={bg4} alt="" className='bg4' />
                 </div>
-
-
                 <header className='header bg-dark' id='header'>
                     <Navegacion />
                 </header>
                 <Outlet />
                 <Footer />
-            
+            </Fade>
             
         </>
     )

@@ -21,6 +21,7 @@ import {ParallaxProvider} from 'react-scroll-parallax';
 
 
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -55,11 +56,12 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
-  <ParallaxProvider>
-    <React.StrictMode>
-      <RouterProvider router={router} />
-    </React.StrictMode>
-  </ParallaxProvider>
+    <ParallaxProvider>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
+    </ParallaxProvider>
+  
   
   
   

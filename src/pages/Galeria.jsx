@@ -73,13 +73,13 @@ function Galeria() {
   return (
     <>
     <div className='container'>
-      <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:.9,delay:.9}} className='text-uppercase text-center textoGaleria'>galeria</motion.h1>
+      <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:.9,delay:1.3}} className='text-uppercase text-center textoGaleria'>galeria</motion.h1>
     </div>
     <div className='galeria'>
       {data.map((item,index)=>{
         return(
           <div className='imagenes' key={index}>
-            <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:.5,delay:.3,ease:'easeInOut'}} src={item.imgSrc} alt="" style={{width:'100%'}} className='rounded-5'/>
+            <motion.img initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:.5,delay:1.5,ease:'easeInOut'}} src={item.imgSrc} alt="" style={{width:'100%'}} className='rounded-5'/>
           </div>
         )
       })}

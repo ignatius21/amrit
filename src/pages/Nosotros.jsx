@@ -14,12 +14,12 @@ function Nosotros() {
   
     return (
     <>
-      <motion.h1 initial={{opacity:0,}} whileInView={{opacity:1}} transition={{duration:1,delay:.7}} viewport={{once:true}} className="text-center text-uppercase display-1 nosotros-texto-encabezado">conozca amrit</motion.h1>
+      <motion.h1 initial={{opacity:0,}} whileInView={{opacity:1}} transition={{duration:1,delay:1.2}} viewport={{once:true}} className="text-center text-uppercase display-1 nosotros-texto-encabezado">conozca amrit</motion.h1>
       <div className="container text-center">
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:.8}} viewport={{once:true}} className="nosotrosTexto fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam velit consequatur consectetur quo dignissimos molestias laudantium omnis dolorem nostrum sint, quisquam mollitia commodi placeat saepe excepturi autem pariatur aspernatur optio.</motion.p>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:1.3}} viewport={{once:true}} className="nosotrosTexto fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam velit consequatur consectetur quo dignissimos molestias laudantium omnis dolorem nostrum sint, quisquam mollitia commodi placeat saepe excepturi autem pariatur aspernatur optio.</motion.p>
       </div>
       <Parallax speed={3}>
-      <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.7,delay:1.5}} src={imagenNosotros} alt="imagen licor nosotros" className="img-fluid container d-flex rounded-5" />
+      <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.7,delay:1.7}} src={imagenNosotros} alt="imagen licor nosotros" className="img-fluid container d-flex rounded-5" />
       </Parallax>
       <div className='container text-center'>
         <p className='container mt-5 fs-3 nosotrosTexto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed tempore corporis at asperiores dolores maxime id tempora totam officiis aperiam, itaque minima pariatur, quas magni incidunt aliquid amet ad? Beatae?</p>
