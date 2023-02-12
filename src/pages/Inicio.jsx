@@ -15,7 +15,7 @@ function Inicio() {
       <motion.div 
           initial={{opacity:0,y:30}}
           whileInView={{opacity:1,y:0}}
-          transition={{duration:.8,delay:.6}} 
+          transition={{duration:.8,delay:.3}} 
           className='col-6 p-3 mt-5'>
         <h2 
           className="container-fluid texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor porro facilis nisi eum accusamus iusto ad provident dolorum repellat quidem? Quisquam atque veniam sunt nobis labore. Odio iusto quibusdam magnam!

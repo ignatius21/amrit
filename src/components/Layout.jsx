@@ -17,6 +17,7 @@ import Fade from './Fade';
 
 
 
+
 function Layout() {
     const location = useLocation();
     let ubicacionPrincipal = window.pageYOffset;
@@ -36,7 +37,7 @@ function Layout() {
     return (
         <>
             <Fade>
-                <div className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
+                <div  className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
                     <p className='parrafoLicores top-50 start-50 translate-middle text-uppercase'>licores</p>
                     <p className='position-absolute top-50 start-50 translate-middle amrit'>AMRIT</p>
                     <img src={bg4} alt="" className='bg4' />
@@ -47,7 +48,7 @@ function Layout() {
                 <Outlet />
                 <Footer />
             </Fade>
-            
+
         </>
     )
 }
