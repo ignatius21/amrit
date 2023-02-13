@@ -9,6 +9,7 @@ import Nosotros from './pages/Nosotros';
 import Inicio from './pages/Inicio';
 import Contacto from './pages/Contacto';
 import Error from './components/Error';
+import Limoncello from './pages/Limoncello';
 import {ParallaxProvider} from 'react-scroll-parallax';
 
 
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:'/contacto',
         element: <Contacto/>
+      },
+      {
+        path: '/limoncello',
+        element: <Limoncello/>
       }
     ]
   },

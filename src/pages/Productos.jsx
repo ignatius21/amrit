@@ -96,6 +96,9 @@ function Productos() {
                 <div className='text-center'>
                   <p className='descripcionTexto fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tempore labore suscipit quidem sed ducimus est! Sint id architecto voluptate eaque, nisi aut dicta, laudantium distinctio perferendis obcaecati mollitia consequuntur.</p>
                 </div>
+                <div className='container row mt-5'>
+                  <a className='enlaceDetalles text-uppercase' href='/limoncello'>detalles</a>
+                </div>
               </div>
             </div>
           </div>

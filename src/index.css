@@ -969,3 +969,77 @@ button svg {
         height: 20rem;
     }
 }
+
+
+
+/*PAGINA INFORMACION*/
+
+
+/*BOTON 'DETALLE'*/
+
+.enlaceDetalles {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-family: 'Abel', sans-serif;
+}
+.enlaceDetalles:hover{
+    cursor: pointer;
+}
+
+.enlaceDetalles::before {
+  margin-left: auto;
+}
+
+.enlaceDetalles::after, .enlaceDetalles::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #292929;
+  display: block;
+  transition: 0.5s;
+}
+
+.enlaceDetalles:hover::after, .enlaceDetalles:hover::before {
+  width: 100%;
+}
+
+/*PAGINA LIMONCELLO*/
+
+.contenedorLimoncello{
+    margin-top: 15rem;
+}
+.tituloInfo{
+    font-family: 'Abel';
+    letter-spacing: 7px;
+    font-size: 10rem;
+}
+@media(max-width:768px){
+    .tituloInfo{
+        font-size: 5rem;
+    }
+    .card-info{
+        margin-top: 0;
+    }
+}
+@media(max-width:425px){
+    .tituloInfo{
+        font-size: 3rem;
+    }
+    .card-info{
+        margin-top: 0;
+    }
+}
+
+.tituloTabla{
+    font-family: 'Anton';
+}
+.descripcionTabla{
+    font-family: 'Abel';
+}
+
+.card-info{
+    margin-top: 10rem;
+}
