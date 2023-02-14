@@ -10,6 +10,8 @@ import Inicio from './pages/Inicio';
 import Contacto from './pages/Contacto';
 import Error from './components/Error';
 import Limoncello from './pages/Limoncello';
+import Cafe from './pages/Cafe';
+import Mani from './pages/Mani';
 import {ParallaxProvider} from 'react-scroll-parallax';
 
 
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
       {
         path: '/limoncello',
         element: <Limoncello/>
+      },
+      {
+        path: '/cafe',
+        element: <Cafe/>
+      },
+      {
+        path: '/mantecol',
+        element: <Mani/>
       }
     ]
   },

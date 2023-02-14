@@ -6,18 +6,6 @@ import bg4 from '../img/bg5.webp';
 import Fade from './Fade';
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function Layout() {
     const location = useLocation();
     let ubicacionPrincipal = window.pageYOffset;
@@ -30,10 +18,7 @@ function Layout() {
         }
         ubicacionPrincipal = desplazamiento_actual;
     };
-
-    
-    
-     
+ 
     return (
         <>
             <Fade>
