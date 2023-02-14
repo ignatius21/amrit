@@ -59,19 +59,19 @@ function Productos() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.6, ease: 'easeInOut' }}
             viewport={{ once: true }}
-            href='#licor1' className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>limoncello</motion.a>
+            href='#limoncello' className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>limoncello</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.7, ease: 'easeInOut' }}
             viewport={{ once: true }}
-            href="#licor2" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>cafe</motion.a>
+            href="#crema de cafe" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>cafe</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.8, ease: 'easeInOut' }}
             viewport={{ once: true }}
-            href="#licor3" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>mani</motion.a>
+            href="#crema de mani" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>mani</motion.a>
         </div>
 
 
@@ -80,7 +80,7 @@ function Productos() {
         {/*LICOR 1*/}
 
 
-        <div className='container-fluid mb-5' id="licor1">
+        <div className='container-fluid mb-5' id="limoncello">
           <div className='row'>
             <div className='col-6 position-relative'>
               <div className='container position-absolute'>
@@ -107,7 +107,7 @@ function Productos() {
 
         {/*LICOR 2*/}
 
-        <div className='container-fluid mb-5' id="licor2">
+        <div className='container-fluid mb-5' id="crema de cafe">
           <div className='row'>
             <div className='col-6 position-relative'>
               <div className='container position-absolute'>
@@ -134,7 +134,7 @@ function Productos() {
 
         {/*LICOR 3*/}
 
-        <div className='container-fluid' id="licor3">
+        <div className='container-fluid' id="crema de mani">
           <div className='row'>
             <div className='col-6 position-relative'>
               <div className='container position-absolute'>

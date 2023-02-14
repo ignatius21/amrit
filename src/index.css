@@ -987,6 +987,7 @@ button svg {
 }
 .enlaceDetalles:hover{
     cursor: pointer;
+    color: #ce7420;
 }
 
 .enlaceDetalles::before {
@@ -1006,7 +1007,7 @@ button svg {
   width: 100%;
 }
 
-/*PAGINA LIMONCELLO*/
+/*PAGINAS DETALLES LICORES*/
 
 .contenedorLimoncello{
     margin-top: 15rem;
@@ -1015,6 +1016,7 @@ button svg {
     font-family: 'Abel';
     letter-spacing: 7px;
     font-size: 10rem;
+    color: #ce7420;
 }
 @media(max-width:768px){
     .tituloInfo{
@@ -1035,6 +1037,7 @@ button svg {
 
 .tituloTabla{
     font-family: 'Anton';
+    color: #444444;
 }
 .descripcionTabla{
     font-family: 'Abel';
@@ -1043,3 +1046,5 @@ button svg {
 .card-info{
     margin-top: 10rem;
 }
+
+

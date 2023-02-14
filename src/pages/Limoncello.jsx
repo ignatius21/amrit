@@ -7,6 +7,7 @@ function Limoncello() {
   return (
     <>
       <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:1.2}}>
+        
         <div className='container contenedorLimoncello'>
           <p className='text-center tituloInfo text-uppercase'>limoncello</p>
         </div>
@@ -55,6 +56,7 @@ function Limoncello() {
             </div>
           </div>
         </div>
+        
       </motion.div>
     </>
   )
