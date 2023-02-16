@@ -15,7 +15,7 @@ const PageFade = ({ children }) => {
     setTimeout(() => {
       setOpacity(1);
       setIsLoaded(true);
-    }, 2700);
+    }, 2300);
   }, [location.pathname]);
 
   return (
