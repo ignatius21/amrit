@@ -6,8 +6,7 @@ import cardNosotros3 from '../img/fondoNosotros.webp';
 import fotoPerfil from '../img/fotoPerfil2.webp';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faSquareInstagram} from '@fortawesome/free-brands-svg-icons';
-import {Parallax} from 'react-scroll-parallax'
-import { useEffect } from 'react';
+import {Parallax} from 'react-scroll-parallax';
 
 
 function Nosotros() {
@@ -16,13 +15,14 @@ function Nosotros() {
     <>
       <motion.h1 initial={{opacity:0,}} whileInView={{opacity:1}} transition={{duration:1,delay:1.2}} viewport={{once:true}} className="text-center text-uppercase display-1 nosotros-texto-encabezado">conozca amrit</motion.h1>
       <div className="container text-center">
-        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:1.3}} viewport={{once:true}} className="nosotrosTexto fs-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam velit consequatur consectetur quo dignissimos molestias laudantium omnis dolorem nostrum sint, quisquam mollitia commodi placeat saepe excepturi autem pariatur aspernatur optio.</motion.p>
+        <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:1.3}} viewport={{once:true}} className="nosotrosTexto fs-3">AMRIT fue fundada en 2021 por entusiastas de la licoreria. De esta pasión nació el nombre de AMRIT, que en sánscrito significa 'inmortal', asociado a la bebida de la inmortalidad.</motion.p>
       </div>
       <Parallax speed={3}>
       <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.7,delay:1.7}} src={imagenNosotros} alt="imagen licor nosotros" className="img-fluid container d-flex rounded-5" />
       </Parallax>
       <div className='container text-center'>
-        <p className='container mt-5 fs-3 nosotrosTexto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed tempore corporis at asperiores dolores maxime id tempora totam officiis aperiam, itaque minima pariatur, quas magni incidunt aliquid amet ad? Beatae?</p>
+        <p className='container mt-5 fs-3 nosotrosTexto'>Los licores Amrit rápidamente dejan su huella entre las primeras personas en probar la creciente locura por los licores artesanales. Gracias a su deseo de resaltar los recursos que componen la riqueza de sus ingredientes, los licores empezaron a comercializarse por primera vez dando lugar a su principal bebida, el limoncello, que fue un éxito entre los amantes de los licores artesanales con sabores bien definidos.
+        Más tarde, nació el reconocido licor crema de café, que confirma la versatilidad y el saber hacer del equipo de licores de Amrit.</p>
       </div>
 
       <div className='container mt-5'>
@@ -44,12 +44,11 @@ function Nosotros() {
       <div className='container'>
         <div className='row parrafoNosotros'>
           <div className='col container'>
-            <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:.5,delay:.6,ease:'circOut'}} viewport={{once:true}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium quisquam non ratione commodi cumque error ut fugit alias hic nemo molestias repellat, distinctio incidunt animi nihil est et quam!
-            Totam quos necessitatibus odit.</motion.p>
+            <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:.5,delay:.6,ease:'circOut'}} viewport={{once:true}}>En poco tiempo, Amrit ofrece una amplia selección de licores listos para beber. El objetivo: ofrecer productos de primera calidad, inspirados tanto en los grandes clásicos como en la naturaleza que nos rodea… lejos de los caminos trillados.</motion.p>
           </div>
           <div className='col container'>
-            <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:.5,delay:.9,ease:'circOut'}} viewport={{once:true}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur praesentium quisquam non ratione commodi cumque error ut fugit alias hic nemo molestias repellat, distinctio incidunt animi nihil est et quam!
-            Totam quos necessitatibus odit.</motion.p>
+            <motion.p initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:.5,delay:.9,ease:'circOut'}} viewport={{once:true}}>Para saborear lo mejor que la naturaleza ofrecemos nuestros mejores licores, los cuales son excelentes compañeros para su aventura.<br></br><br></br>
+            ¡Es hora de planificar tu próxima escapada!</motion.p>
           </div>
         </div>
       </div>

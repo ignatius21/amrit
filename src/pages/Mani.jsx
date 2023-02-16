@@ -14,13 +14,13 @@ export default function Mani() {
                   <div className='row'>
                       <div className='col-6 position-relative'>
                           <div className='container position-relative'>
-                              <img src={mantecol} alt="imagen del limoncello" className='img-fluid licor1' />
+                              <img src={mantecol} alt="imagen del limoncello" className='img-fluid licorLimoncello' />
                           </div>
                       </div>
                       <div className='col-6 d-flex align-items-center'>
                           <div className='mx-auto text-center'>
                               <div className='text-center'>
-                                  <p className='fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tempore labore suscipit quidem sed ducimus est! Sint id architecto voluptate eaque, nisi aut dicta, laudantium distinctio perferendis obcaecati mollitia consequuntur.</p>
+                                  <p className='fs-4'>Este licor de maní de sabor a mantecol es perfecto con hielo, en cócteles y con (¡o dentro!) de un postre. Si eres un amante del mantecol y el licor artesanal, postre de maní es simplemente un sueño hecho realidad.</p>
                               </div>
                               <motion.table initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: false }} transition={{ duration: 1, delay: .4, ease: 'easeInOut' }} className="table mt-5">
                                   <thead>

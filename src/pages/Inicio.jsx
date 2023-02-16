@@ -18,8 +18,8 @@ function Inicio() {
           transition={{duration:.8,delay:.3}} 
           className='col-6 p-3 mt-5'>
         <h2 
-          className="container-fluid texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor porro facilis nisi eum accusamus iusto ad provident dolorum repellat quidem? Quisquam atque veniam sunt nobis labore. Odio iusto quibusdam magnam!
-          Quos, amet necessitatibus. Similique necessitatibus fugiat doloremque.</h2>
+          className="container-fluid texto">En Amrit producimos licores de primer nivel; nuestra misión es mostrar
+          lo mejor de la naturaleza y sus componentes en una mezcla original y unica, dandole el tiempo justo en su preparación.</h2>
         <div className='botones2 mt-5'>
           <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' href='/nosotros'>conozcanos</a>
         </div>

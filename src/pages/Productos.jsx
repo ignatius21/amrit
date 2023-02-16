@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 
 function Productos() { 
   const [bgColor, setBgColor] = useState('#f3f1e9');
-  const colors = ['#f3f1e9','#dfe7cce1','#a9cde270','#ad9d897a'];
+  const colors = ['#f3f1e9','#eaf8c950','#a78f6b4b','#e9d99147'];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +51,7 @@ function Productos() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: .7, delay: 1.9, ease: 'easeInOut' }}
           viewport={{ once: true }}
-          className="container text-center mt-5 productos-licores display-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et error illo quas iure, dolorum laudantium aspernatur, sint cum in libero fugiat laborum fuga vitae officiis doloremque tenetur cupiditate ducimus quae.</motion.p>
+          className="container text-center mt-5 productos-licores display-6">Para crear nuestros productos, nos inspiramos en la naturaleza que nos rodea. El resultado: licores con sabores originales y auténticos.</motion.p>
 
         <div className='contenedorBotones container d-flex justify-content-center p-5'>
           <motion.a
@@ -94,7 +94,7 @@ function Productos() {
               <div className='mx-auto text-center'>
                 <h2 className='display-3 text-uppercase limonchello'>limoncello</h2>
                 <div className='text-center'>
-                  <p className='descripcionTexto fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tempore labore suscipit quidem sed ducimus est! Sint id architecto voluptate eaque, nisi aut dicta, laudantium distinctio perferendis obcaecati mollitia consequuntur.</p>
+                  <p className='descripcionTexto fs-4'>Un licor elaborado con limon y esencias bien definidas... Redescubre el Limoncello con nuestra versión de este clásico italiano.</p>
                 </div>
                 <div className='container row mt-5'>
                   <a className='enlaceDetalles text-uppercase' href='/limoncello'>detalles</a>
@@ -121,7 +121,7 @@ function Productos() {
               <div className='mx-auto text-center'>
                 <h2 className='display-3 text-uppercase cafe'>Crema de cafe</h2>
                 <div className='text-center'>
-                  <p className='descripcionTexto fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tempore labore suscipit quidem sed ducimus est! Sint id architecto voluptate eaque, nisi aut dicta, laudantium distinctio perferendis obcaecati mollitia consequuntur.</p>
+                  <p className='descripcionTexto fs-4'>Un auténtico licor especiado con notas tanto exóticas como locales.</p>
                 </div>
                 <div className='container row mt-5'>
                   <a className='enlaceDetalles text-uppercase' href='/cafe'>detalles</a>
@@ -148,7 +148,7 @@ function Productos() {
               <div className='mx-auto text-center'>
                 <h2 className='display-1 mantecol'>Postre de mani</h2>
                 <div className='text-center'>
-                  <p className='descripcionTexto fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste tempore labore suscipit quidem sed ducimus est! Sint id architecto voluptate eaque, nisi aut dicta, laudantium distinctio perferendis obcaecati mollitia consequuntur.</p>
+                  <p className='descripcionTexto fs-4'>Una versión con maní del clásico mantecol... Lo mejor de ambos mundos para los amantes del licor y el mantecol.</p>
                 </div>
                 <div className='container row mt-5'>
                   <a className='enlaceDetalles text-uppercase' href='/mantecol'>detalles</a>
