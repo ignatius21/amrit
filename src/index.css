@@ -653,6 +653,7 @@ button svg {
     font-family: 'Anton';
     letter-spacing: 10px;
     margin-top: 9rem !important;
+    color: rgb(65, 65, 65);
 }
 
 .productos-licores{
@@ -737,7 +738,7 @@ button svg {
     font-family:'Anton';
     letter-spacing: 15px;
     padding-top: 8rem;
-    color: rgb(37, 37, 37);   
+    color: rgb(65, 65, 65);   
 }
 
 .nosotrosTexto{
@@ -781,6 +782,7 @@ button svg {
     font-size: 4rem;
     letter-spacing: 5px;
     margin-top: 15rem;
+    color: rgb(65, 65, 65);
 }
 
 @media(max-width:425px){
@@ -831,6 +833,7 @@ button svg {
     letter-spacing: 10px;
     margin-top: 10rem;
     margin-bottom: 10rem;
+    color: rgb(65, 65, 65);
 }
 
 @media(max-width:768px){
@@ -881,6 +884,7 @@ button svg {
     letter-spacing: 10px;
     font-size: 8rem;
     margin: 7rem auto 2rem;
+    color: rgb(65, 65, 65);
 }
 
 @media(max-width:768px){
@@ -916,6 +920,7 @@ button svg {
     font-size: 4rem;
     letter-spacing: 5px;
     margin-bottom: 5rem;
+    color: rgb(65, 65, 65);
 }
 @media(max-width:768px){
     .textoFormulario{
