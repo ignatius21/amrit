@@ -44,7 +44,7 @@ export default function Cafe() {
                                       </tr>
                                       <tr>
                                           <td scope="row" className='text-uppercase d-flex tituloTabla '>composicion</td>
-                                          <td className='descripcionTabla' scope="row">Azucar,agua,cafe</td>
+                                          <td className='descripcionTabla' scope="row">Café,leche condensada,alcohol,agua,azucar</td>
                                       </tr>
                                   </tbody>
                               </motion.table>

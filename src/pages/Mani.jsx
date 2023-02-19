@@ -44,7 +44,7 @@ export default function Mani() {
                                       </tr>
                                       <tr>
                                           <td scope="row" className='text-uppercase d-flex tituloTabla '>composicion</td>
-                                          <td className='descripcionTabla' scope="row">Azucar,agua,mani</td>
+                                          <td className='descripcionTabla' scope="row">Maní,caramelo,leche condensada,alcohol,agua</td>
                                       </tr>
                                   </tbody>
                               </motion.table>
