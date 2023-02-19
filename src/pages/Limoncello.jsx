@@ -53,7 +53,7 @@ function Limoncello() {
                     </tr>
                     <tr>
                       <td scope="row" className='text-uppercase d-flex tituloTabla '>composicion</td>
-                      <td className='descripcionTabla' scope="row">Limon,alcohol.agua,azucar</td>
+                      <td className='descripcionTabla' scope="row">Limon,alcohol,agua,azucar</td>
                     </tr>
                   </tbody>
                 </motion.table>
