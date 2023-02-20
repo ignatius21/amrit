@@ -1,5 +1,7 @@
+
 body{
     background-color: #f3f1e9;
+    overflow-x: hidden;
 }
 .page-fade{
     transition: 1s ease-in-out;
