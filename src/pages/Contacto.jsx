@@ -30,8 +30,7 @@ function Contacto() {
       <h1 className="text-uppercase img-fluid textoContacto">contactenos</h1>
     </div>
     <div className="container text-center">
-      <p className="fw-bold parrafoContacto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde repellendus qui odio animi quasi ut fugiat cum, corporis quae iure sint rem explicabo, libero vitae aperiam ex quam in fuga?
-      Distinctio soluta atque ad eligendi, quisquam commodi minima quos ducimus odio omnis ratione ipsa iure quae ut necessitatibus explicabo rerum similique sed dolorum aperiam sapiente, porro molestiae facere fuga! Corrupti!</p>
+      <p className="fw-bold parrafoContacto">Es importante para nosotros mantener una comunicación fluida con nuestros clientes,por eso lo invitamos a escribirnos y visitar nuestra redes para estar al tanto de las nuevas novedades.Siguenos!</p>
     </div>
     <div className="container text-center mt-5">
       <p className="locacion">Argentina,Santa Fe Capital</p>
