@@ -3,6 +3,7 @@ import imagen1 from '../img/12.webp';
 import imagen2 from '../img/licorMani7.webp';
 import imagen3 from '../img/logo2.webp';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 function Inicio() {
@@ -21,7 +22,7 @@ function Inicio() {
           className="container-fluid texto">En Amrit producimos licores de primer nivel; nuestra misión es mostrar
           lo mejor de la naturaleza y sus componentes en una mezcla original y unica, dandole el tiempo justo en su preparación.</h2>
         <div className='botones2 mt-5'>
-          <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' href='/nosotros'>conozcanos</a>
+          <Link className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' to='/nosotros'>conozcanos</Link>
         </div>
       </motion.div>
       <div className='o-row'>
