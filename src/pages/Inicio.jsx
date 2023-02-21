@@ -22,7 +22,7 @@ function Inicio() {
           className="container-fluid texto">En Amrit producimos licores de primer nivel; nuestra misión es mostrar
           lo mejor de la naturaleza y sus componentes en una mezcla original y unica, dandole el tiempo justo en su preparación.</h2>
         <div className='botones2 mt-5'>
-          <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' to='./pages/nosotros'>conozcanos</a>
+          <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' to='./pages/Nosotros'>conozcanos</a>
         </div>
       </motion.div>
       <div className='o-row'>
