@@ -3,6 +3,7 @@ body{
     background-color: #f3f1e9;
     overflow-x: hidden;
 }
+
 .page-fade{
     transition: 1s ease-in-out;
 }
@@ -31,8 +32,8 @@ body{
 .contenedor-header{
     width: 100vw;
     height: 100vh;
-    background-color: #111;
 }
+
 .header{
     width: 100vw;
     height: 5rem;
@@ -40,6 +41,16 @@ body{
     z-index: 1000;
     top: 0;
     transition: top 0.5s;
+}
+
+@media(max-width:375px){
+    .contenedor-header{
+        width: 100vw;
+        height: 40rem;
+    }
+    .header{
+        width: 100vw;
+    }
 }
 .bg4{
     width: 100%;
@@ -127,7 +138,7 @@ body{
 /*HEADER 2*/
 
 .navegacion3{
-    width: 100%;
+    width: 100vw;
     height: 5rem;
 }
 
@@ -285,7 +296,8 @@ body{
     font-weight: bolder;
 }
 
-@media(max-width:425px){
+
+@media(max-width:375px){
     .btn-licores{
         height: 2rem;
         align-items: center;
@@ -294,7 +306,7 @@ body{
     }
     .btn-licores2{
         height: 2rem;
-        margin-left: 7.5rem;
+        margin-left: 5rem;
     }
 }
 
@@ -459,6 +471,26 @@ button svg {
     height: 100%;
 }
 
+@media(max-width:375px){
+    .contenedorImagenAmrit{
+        width: 10rem;
+        height: 5rem;
+    }
+    .contenedorImagen{
+        height: 10rem;
+        width: 100vw;
+    }
+    .contenedorTextoLicor{
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+    .imagenLogotipoAmrit{
+        width: 20rem;
+        margin-left: 1.3rem;
+    }
+}
+
+
 @media(max-width:425px){
     .contenedorImagenAmrit{
         width: 15rem;
@@ -491,6 +523,13 @@ button svg {
 
 .footer{
     max-height: 30rem;
+}
+@media(max-width:375px){
+    .footer2{
+        width: min-content;
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 

@@ -4,7 +4,7 @@ function Navegacion2() {
     
     return (
         <nav className='navbar justify-content-center mt-3'>
-            <ul className="nav mt-2">
+            <ul className="nav mt-2 footer2">
                 <li className="nav-item">
                     <a className="nav-link cta2" aria-current="page" href={"/contacto"}><span className='hover-underline-animation2'>contacto</span></a>
                 </li>
