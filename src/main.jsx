@@ -33,35 +33,43 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Inicio/>
+        element: <Inicio/>,
+        exact: true
       },
       {
         path: '/productos',
-        element: <Productos/>
+        element: <Productos/>,
+        exact: true
       },
       {
         path: '/nosotros',
-        element: <Nosotros/>
+        element: <Nosotros/>,
+        exact: true
       },
       {
         path:'/galeria',
-        element: <Galeria/>
+        element: <Galeria/>,
+        exact: true
       },
       {
         path:'/contacto',
-        element: <Contacto/>
+        element: <Contacto/>,
+        exact: true
       },
       {
         path: '/limoncello',
-        element: <Limoncello/>
+        element: <Limoncello/>,
+        exact: true
       },
       {
         path: '/cafe',
-        element: <Cafe/>
+        element: <Cafe/>,
+        exact: true
       },
       {
         path: '/mantecol',
-        element: <Mani/>
+        element: <Mani/>,
+        exact: true
       }
     ]
   },
