@@ -25,7 +25,7 @@ function Layout() {
                 <div  className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
                     <p className='parrafoLicores top-50 start-50 translate-middle text-uppercase'>licores</p>
                     <p className='position-absolute top-50 start-50 translate-middle amrit'>AMRIT</p>
-                    <img src={bg4} alt="" className='bg4' />
+                    <img src={bg4} alt="imagen de fondo de presentacion" className='bg4' />
                 </div>
                 <header className='header bg-dark' id='header'>
                     <Navegacion />

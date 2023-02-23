@@ -12,9 +12,9 @@ function Error() {
         </div>
       </div>
       <div className='container text-center mt-5'>
-        <button type='button' onClick={()=>{navigate(-1)}} className='btn btn-licores2 border-0 text-uppercase justify-content-center align-items-center'>volver</button>
+        <button type='button' onClick={() => { navigate(-1) }} className='btn btn-licores2 border-0 text-uppercase justify-content-center align-items-center'>volver</button>
       </div>
-        </>
+    </>
   )
 }
 
