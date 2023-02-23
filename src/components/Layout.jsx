@@ -4,6 +4,7 @@ import Footer from './Footer';
 import {useLocation} from 'react-router-dom';
 import bg4 from '../img/bg5.webp';
 import Fade from './Fade';
+import {motion} from 'framer-motion';
 
 
 function Layout() {
@@ -22,11 +23,11 @@ function Layout() {
     return (
         <>
             <Fade>
-                <div  className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
+                <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:.5,delay:.5}}  className={`${location.pathname === '/' ? 'contenedor-header' : 'visually-hidden'}`}>
                     <p className='parrafoLicores top-50 start-50 translate-middle text-uppercase'>licores</p>
                     <p className='position-absolute top-50 start-50 translate-middle amrit'>AMRIT</p>
                     <img src={bg4} alt="imagen de fondo de presentacion" className='bg4' />
-                </div>
+                </motion.div>
                 <header className='header bg-dark' id='header'>
                     <Navegacion />
                 </header>
