@@ -23,7 +23,6 @@ function Inicio() {
         <div className='botones2 mt-5'>
           <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center'
             href='/nosotros'>conozcanos</a>
-            <Link className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center' onClick={() => window.scrollTo(0, 0)} to='/nosotros'>conozcanos</Link>
         </div>
       </motion.div>
       <div className='o-row'>
