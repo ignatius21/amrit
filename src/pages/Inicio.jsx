@@ -3,7 +3,7 @@ import imagen1 from '../img/12.webp';
 import imagen2 from '../img/licorMani7.webp';
 import imagen3 from '../img/logo2.webp';
 import {motion} from 'framer-motion';
-import { NavLink,Link } from 'react-router-dom';
+
 
 
 function Inicio() {
