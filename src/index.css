@@ -13,17 +13,17 @@ body{
 
 .page-fade-enter-active {
   opacity: 1;
-  transition: .5s ease-in;
+  transition: 2s ease-in;
 }
 
 .page-fade-exit {
   opacity: 1;
-  transition: .5s ease-out;
+  transition: 2s ease-out;
 }
 
 .page-fade-exit-active {
   opacity: 0;
-  transition:  .5s ease-out;
+  transition:  2s ease-out;
 }
   
 
