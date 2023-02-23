@@ -43,13 +43,13 @@ function Productos() {
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 2.5, type: 'tween', ease: 'easeInOut' }}
+          transition={{ duration: 1, delay: 3, type: 'tween', ease: 'easeInOut' }}
           viewport={{ once: true }}
           className="container text-center mt-5 text-uppercase display-1 productos">nuestros licores</motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 35 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: .7, delay: 2.8, ease: 'easeInOut' }}
+          transition={{ duration: .7, delay: 3.2, ease: 'easeInOut' }}
           viewport={{ once: true }}
           className="container text-center mt-5 productos-licores display-6">Para crear nuestros productos, nos inspiramos en la naturaleza que nos rodea. El resultado: licores con sabores originales y auténticos.</motion.p>
 
@@ -57,19 +57,19 @@ function Productos() {
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 2.9, ease: 'easeInOut' }}
+            transition={{ duration: 1, delay: 3.3, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href='#limoncello' className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>limoncello</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 3, ease: 'easeInOut' }}
+            transition={{ duration: 1, delay: 3.4, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href="#crema de cafe" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>cafe</motion.a>
           <motion.a
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 3.1, ease: 'easeInOut' }}
+            transition={{ duration: 1, delay: 3.5, ease: 'easeInOut' }}
             viewport={{ once: true }}
             href="#crema de mani" className='btn btn-outline-secondary border border-dark-subtle text-uppercase'>mani</motion.a>
         </div>

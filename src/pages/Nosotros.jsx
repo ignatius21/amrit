@@ -13,12 +13,12 @@ function Nosotros() {
   
     return (
       <>
-        <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 3 }} viewport={{ once: true }} className="text-center text-uppercase display-1 nosotros-texto-encabezado">conozca amrit</motion.h1>
+        <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 3.3 }} viewport={{ once: true }} className="text-center text-uppercase display-1 nosotros-texto-encabezado">conozca amrit</motion.h1>
         <div className="container text-center">
-          <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 3.2 }} viewport={{ once: true }} className="nosotrosTexto fs-3">AMRIT fue fundada en 2021 por entusiastas de la licoreria artesanal. De esta pasión nació el nombre de AMRIT, que en sánscrito significa <span className='colorSpan '>'inmortal'</span>, asociado a la bebida de la inmortalidad.</motion.p>
+          <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 3.4 }} viewport={{ once: true }} className="nosotrosTexto fs-3">AMRIT fue fundada en 2021 por entusiastas de la licoreria artesanal. De esta pasión nació el nombre de AMRIT, que en sánscrito significa <span className='colorSpan '>'inmortal'</span>, asociado a la bebida de la inmortalidad.</motion.p>
         </div>
         <Parallax speed={3}>
-          <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .7, delay: 3.5, ease: 'easeInOut' }} src={imagenNosotros} alt="imagen licor nosotros" className="img-fluid container d-flex rounded-5" />
+          <motion.img initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .7, delay: 3.6, ease: 'easeInOut' }} src={imagenNosotros} alt="imagen licor nosotros" className="img-fluid container d-flex rounded-5" />
         </Parallax>
         <div className='container text-center'>
           <p className='container mt-5 fs-3 nosotrosTexto'>Los licores Amrit rápidamente dejan su huella entre las primeras personas en probar la creciente locura por los licores artesanales. Gracias a su deseo de resaltar los recursos que componen la riqueza de sus ingredientes, los licores empezaron a comercializarse por primera vez dando lugar a su principal bebida, el limoncello, que fue un éxito entre los amantes de los licores artesanales con sabores bien definidos.
