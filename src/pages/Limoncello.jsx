@@ -1,6 +1,7 @@
 import lemonchello from '../img/lemonchello.webp';
 import {useNavigate,Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
+import fondoLimoncello from '../img/fondoLimoncello.webp'
 
 
 
@@ -24,6 +25,7 @@ function Limoncello() {
             <div className='col-6 position-relative'>
               <div className='container position-relative'>
                 <img src={lemonchello} alt="imagen del limoncello" className='img-fluid licorLimoncello' />
+                <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:4,ease:'easeInOut'}} src={fondoLimoncello} alt="imagen del limoncello" className='img-fluid licorLimoncello position-absolute top-0 start-0 mt-5' style={{zIndex: -1}}/>
               </div>
             </div>
             <div className='col-6 d-flex align-items-center'>
