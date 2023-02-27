@@ -6,6 +6,7 @@ import base3 from '../img/mantecolBase.webp';
 import mantecol from '../img/mantecol.webp';
 import {motion} from 'framer-motion';
 import { useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -97,7 +98,7 @@ function Productos() {
                   <p className='descripcionTexto fs-4'>Un licor elaborado con limon y esencias bien definidas... Redescubre el Limoncello con nuestra versión de este clásico italiano.</p>
                 </div>
                 <div className='container row mt-5'>
-                  <a className='enlaceDetalles text-uppercase' href='/limoncello'>detalles</a>
+                  <Link className='enlaceDetalles text-uppercase' to='/limoncello' onClick={() => window.scrollTo(0, 0)}>detalles</Link>
                 </div>
               </div>
             </div>
@@ -124,7 +125,7 @@ function Productos() {
                   <p className='descripcionTexto fs-4'>Un auténtico licor especiado con notas tanto exóticas como locales.</p>
                 </div>
                 <div className='container row mt-5'>
-                  <a className='enlaceDetalles text-uppercase' href='/cafe'>detalles</a>
+                  <Link className='enlaceDetalles text-uppercase' to='/cafe' onClick={() => window.scrollTo(0, 0)}>detalles</Link>
                 </div>
               </div>
             </div>
@@ -151,7 +152,7 @@ function Productos() {
                   <p className='descripcionTexto fs-4'>Una versión con maní del clásico mantecol... Lo mejor de ambos mundos para los amantes del licor y el mantecol.</p>
                 </div>
                 <div className='container row mt-5'>
-                  <a className='enlaceDetalles text-uppercase' href='/mantecol'>detalles</a>
+                  <Link className='enlaceDetalles text-uppercase' to='/mantecol' onClick={() => window.scrollTo(0, 0)}>detalles</Link>
                 </div>
               </div>
             </div>
