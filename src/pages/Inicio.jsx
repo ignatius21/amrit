@@ -3,6 +3,7 @@ import imagen1 from '../img/12.webp';
 import imagen2 from '../img/licorMani7.webp';
 import imagen3 from '../img/logo2.webp';
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 
 
@@ -21,8 +22,8 @@ function Inicio() {
           className="container-fluid texto">En Amrit producimos licores de primer nivel; nuestra misión es mostrar
           lo mejor de la naturaleza y sus componentes en una mezcla original y unica, dandole el tiempo justo en su preparación.</h2>
         <div className='botones2 mt-5'>
-          <a className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center'
-            href='/nosotros'>conozcanos</a>
+          <Link className='btn btn-licores2 border-0 text-uppercase d-flex justify-content-center align-items-center'
+            to='/nosotros' onClick={() => window.scrollTo(0, 0)}>conozcanos</Link>
         </div>
       </motion.div>
       <div className='o-row'>
@@ -47,7 +48,7 @@ function Inicio() {
             </div>
           </div>
           <button className='mb-3'>
-            <a href={'/productos'} className='botonEnlace'><p className='display-5'>licores</p></a>
+            <Link to={'/productos'} className='botonEnlace' onClick={() => window.scrollTo(0, 0)}><p className='display-5'>licores</p></Link>
             <svg strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" className="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 5l7 7m0 0l-7 7m7-7H3" strokeLinejoin="round" strokeLinecap="round"></path>
             </svg>
@@ -60,7 +61,7 @@ function Inicio() {
             </div>
           </div>
           <button>
-            <a href='/galeria' className='botonEnlace'><p className='display-5'>Galeria</p></a>
+            <Link to='/galeria' className='botonEnlace' onClick={() => window.scrollTo(0, 0)}><p className='display-5'>Galeria</p></Link>
             <svg strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" className="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 5l7 7m0 0l-7 7m7-7H3" strokeLinejoin="round" strokeLinecap="round"></path>
             </svg>
