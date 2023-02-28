@@ -1,6 +1,7 @@
 import {useNavigate,Link} from 'react-router-dom';
-import mantecol from '../img/mantecol.webp'
+import mantecol from '../img/mantecol.webp';
 import { motion } from 'framer-motion';
+import fondoMani from '../img/fondoMani.webp';
 
 export default function Mani() {
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ export default function Mani() {
                       <div className='col-6 position-relative'>
                           <div className='container position-relative'>
                               <img src={mantecol} alt="imagen del limoncello" className='img-fluid licorLimoncello' />
+                              <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:4,ease:'easeInOut'}} src={fondoMani} alt="imagen del limoncello" className='img-fluid licorLimoncello position-absolute top-0 start-0 mt-5' style={{zIndex: -1}}/>
                           </div>
                       </div>
                       <div className='col-6 d-flex align-items-center'>

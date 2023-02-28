@@ -1,7 +1,7 @@
 import lemonchello from '../img/lemonchello.webp';
 import {useNavigate,Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
-import fondoLimoncello from '../img/fondoLimoncello.webp'
+import fondoLimoncello from '../img/fondoLimoncello2.webp'
 
 
 

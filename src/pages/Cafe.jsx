@@ -1,6 +1,7 @@
 import {useNavigate,Link} from 'react-router-dom';
 import cafe from '../img/cafe.webp'
 import { motion } from 'framer-motion';
+import fondoCafe from '../img/fondoCafe.webp';
 
 export default function Cafe() {
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ export default function Cafe() {
                       <div className='col-6 position-relative'>
                           <div className='container position-relative'>
                               <img src={cafe} alt="imagen del limoncello" className='img-fluid licorLimoncello' />
+                              <motion.img initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1,delay:4,ease:'easeInOut'}} src={fondoCafe} alt="imagen del limoncello" className='img-fluid licorLimoncello position-absolute top-0 start-0 mt-5' style={{zIndex: -1}}/>
                           </div>
                       </div>
                       <div className='col-6 d-flex align-items-center'>
